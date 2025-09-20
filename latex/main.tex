@@ -1,0 +1,1501 @@
+% !BIB TS-program = biblatex
+% !TeX spellcheck = en_GB
+%
+%###############################################################################
+% LICENSE
+%
+% "main.tex" (C) 2025 by Jakob Harden (Graz University of Technology) is licensed under a Creative Commons Attribution 4.0 International license.
+%
+% License deed: https://creativecommons.org/licenses/by/4.0/
+% Author email: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+% Author website: https://jakobharden.at/wordpress/
+% Author ORCID: https://orcid.org/0000-0002-5752-1785
+%
+% This file is part of the PhD thesis of Jakob Harden.
+%###############################################################################
+% Beamer documentation: https://www.beamer.plus/Structuring-Presentation-The-Local-Structure.html
+%
+%###############################################################################
+% Bibliography
+\begin{filecontents*}[overwrite]{biblio.bib}
+@unpublished{expstudyharden2025,
+	author    = {Harden, Jakob},
+	title     = {Experimental study on cement paste using the ultrasonic pulse transmission method},
+	year      = {2025},
+	month     = {3},
+	note      = {Engineering Archive},
+	doi       = {10.31224/4465},
+	url       = {https://doi.org/10.31224/4465},
+}
+@article{barshan2000,
+	author  = {Billur Barshan},
+	title   = {Fast processing techniques for accurate ultrasonic range measurements},
+	year    = {2000},
+	month   = {1},
+	journal = {Measurement Science and Technology},
+	volume  = {11},
+	number  = {1},
+	pages   = {45},
+	doi     = {10.1088/0957-0233/11/1/307},
+	url     = {https://dx.doi.org/10.1088/0957-0233/11/1/307},
+}
+@online{code,
+	author    = {Harden, Jakob},
+	title     = {Supplementary GNU Octave code for: Signal model parameter optimisation for primary wave signal responses from ultrasonic pulse transmission tests},
+	month     = {9},
+	year      = {2025},
+	note    = {Graz University of Technology},
+	version   = {1.0.0},
+	doi       = {10.3217/x9htm-kxe18},
+	url       = {https://doi.org/10.3217/x9htm-kxe18},
+}
+@online{latex,
+	author    = {Harden, Jakob},
+	title     = {Supplementary LaTeX code for: Signal model parameter optimisation for primary wave signal responses from ultrasonic pulse transmission tests},
+	month     = {9},
+	year      = {2025},
+	note    = {Graz University of Technology},
+	version   = {1.0.0},
+	doi       = {10.3217/pn7sy-hma06},
+	url       = {https://doi.org/10.3217/pn7sy-hma06},
+}
+@online{repovideo,
+	author    = {Harden, Jakob},
+	title     = {Supplementary video files for: Signal model parameter optimisation for primary wave signal responses from ultrasonic pulse transmission tests},
+	month     = {9},
+	year      = {2025},
+	note    = {Graz University of Technology},
+	version   = {1.0.0},
+	doi       = {10.3217/5rgbw-a8v29},
+	url       = {https://doi.org/10.3217/5rgbw-a8v29},
+}
+@online{repogit,
+	author    = {Harden, Jakob},
+	title     = {GitHub code repository: Signal model parameter optimisation for primary wave signal responses from ultrasonic pulse transmission tests},
+	month     = {9},
+	year      = {2025},
+	url       = {https://github.com/jakobharden/phd_signalmodelfitting},
+}
+@online{ytvideo1,
+	author    = {Harden, Jakob},
+	title     = {YouTube playlist: UPTM \textendash{} P-wave signal model fitting results, testing material: cement paste, ultrasonic measuring distance: 25, 50, 70 mm},
+	month     = {9},
+	year      = {2025},
+	url       = {https://www.youtube.com/playlist?list=PLJZuQsRT0k-M7zaaBbiKMzlLKHiLl7K2j},
+}
+@online{ytvideo2,
+	author    = {Harden, Jakob},
+	title     = {YouTube playlist: UPTM \textendash{} P-wave signal model fitting results, testing material: ambient air, ultrasonic measuring distance: 25, 50, 70, 90 mm},
+	month     = {9},
+	year      = {2025},
+	url       = {https://www.youtube.com/playlist?list=PLJZuQsRT0k-PDwayMIp9qnjOUYo4H71Ea},
+}
+@online{ytvideo3,
+	author    = {Harden, Jakob},
+	title     = {YouTube playlist: UPTM \textendash{} P-wave signal model fitting results, testing material: tap water, ultrasonic measuring distance: 25, 50 mm},
+	month     = {9},
+	year      = {2025},
+	url       = {https://www.youtube.com/playlist?list=PLJZuQsRT0k-PcsCwiQu_qluBSBQJok2Zi},
+}
+@online{ytvideo4,
+	author    = {Harden, Jakob},
+	title     = {YouTube playlist: UPTM \textendash{} P-wave signal model fitting results, testing material: tap water, ultrasonic measuring distance: 70, 90 mm},
+	month     = {9},
+	year      = {2025},
+	url       = {https://www.youtube.com/playlist?list=PLJZuQsRT0k-O9ZTgesZUKfYvqYNkToMEJ},
+}
+@online{ytvideo5,
+	author    = {Harden, Jakob},
+	title     = {YouTube playlist: UPTM \textendash{} P-wave signal model fitting results, testing material: aluminium cylinder, ultrasonic measuring distance: 50 mm},
+	month     = {9},
+	year      = {2025},
+	url       = {https://www.youtube.com/playlist?list=PLJZuQsRT0k-NaoWA7EBHHLaojYXNR7s77},
+}
+@online{ts1data,
+	author    = {Harden, Jakob},
+	title     = {Ultrasonic Pulse Transmission Tests: Datasets \textendash{} Test Series 1, Cement Paste at Early Stages},
+	month     = {7},
+	year      = {2023},
+	note      = {Graz University of Technology},
+	version   = {1.0},
+	doi       = {10.3217/bhs4g-m3z76},
+	url       = {https://doi.org/10.3217/bhs4g-m3z76},
+}
+@online{ts5data,
+	author    = {Harden, Jakob},
+	title     = {Ultrasonic Pulse Transmission Tests: Datasets \textendash{} Test Series 5, Reference Tests on Air},
+	month     = {7},
+	year      = {2023},
+	note      = {Graz University of Technology},
+	version   = {1.0},
+	doi       = {10.3217/bjkrj-pg829},
+	url       = {https://doi.org/10.3217/bjkrj-pg829},
+}
+@online{ts6data,
+	author    = {Harden, Jakob},
+	title     = {Ultrasonic Pulse Transmission Tests: Datasets \textendash{} Test Series 6, Reference Tests on Water},
+	month     = {7},
+	year      = {2023},
+	note      = {Graz University of Technology},
+	version   = {1.0},
+	doi       = {10.3217/hn7we-q7z09},
+	url       = {https://doi.org/10.3217/hn7we-q7z09},
+}
+@online{ts7data,
+	author       = {Harden, Jakob},
+	title        = {{Ultrasonic Pulse Transmission Tests: Datasets \textendash{} Test Series 7, Reference Tests on Aluminium Cylinder}},
+	month        = {2},
+	year         = {2025},
+	note         = {TU Graz Repository},
+	version      = {1.1},
+	doi          = {10.3217/w3mb5-1wx17},
+	url          = {https://doi.org/10.3217/w3mb5-1wx17},
+}
+@online{octavedoc,
+	author    = {Eaton, {John W.}},
+	title     = {GNU Octave (version 6.2.0)},
+	publisher = {octave.org},
+	url       = {https://sunsite.icm.edu.pl/pub/gnu/octave/},
+	urldate   = {2025-09-11},
+}
+@online{agplv3,
+	title     = {GNU Affero General Public License},
+	version   = {3},
+	year      = {2007},
+	month     = {11},
+	day       = {19},
+	url       = {https://www.gnu.org/licenses/agpl-3.0.html},
+	note      = {Free Software Foundation, Inc.},
+}
+@online{ccby40,
+	author      = {creativecommons.org},
+	title       = {Creative Commons \textendash{} Attribution 4.0 International, SPDX short identifier: CC-BY-4.0},
+	url         = {https://creativecommons.org/licenses/by/4.0/legalcode},
+}
+\end{filecontents*}
+%
+% preamble
+\documentclass[11pt,aspectratio=169]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[LGR,T1]{fontenc}
+\usepackage[ngerman,english]{babel}
+\usepackage{hyphenat}
+\usepackage{lmodern}
+\usepackage{blindtext}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{calc,fpu,plotmarks}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.17}
+\usepgflibrary{fpu}
+\usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{tocbasic}
+\usepackage[backend=biber,style=numeric]{biblatex}
+\addbibresource{biblio.bib}
+%
+% text blocks
+\def\PresTitle{Signal model parameter optimisation for primary wave signal responses from ultrasonic pulse transmission tests}
+\def\PresSubTitle{A numerical study concerning damped sinusoidal signals}
+\def\PresDate{20\textsuperscript{th} of September, 2025}
+\def\PresFootInfo{My PhD thesis, research in progress ...}
+\def\PresAuthorFirstname{Jakob}
+\def\PresAuthorLastname{Harden}
+\def\PresAuthor{\PresAuthorFirstname{} \PresAuthorLastname{}}
+\def\PresAuthorAffiliation{Graz University of Technology}
+\def\PresAuthorAffiliationLocation{\PresAuthorAffiliation{} (Graz, Austria)}
+\def\PresAuhtorWebsite{jakobharden.at}
+\def\PresAuhtorWebsiteURL{https://jakobharden.at/wordpress/}
+\def\PresAuhtorEmailFirst{jakob.harden@tugraz.at}
+\def\PresAuhtorEmailSecond{jakob.harden@student.tugraz.at}
+\def\PresAuhtorEmailThird{office@jakobharden.at}
+\def\PresAuthorOrcid{0000-0002-5752-1785}
+\def\PresAuthorOrcidURL{https://orcid.org/0000-0002-5752-1785}
+\def\PresAuthorLinkedin{jakobharden}
+\def\PresAuthorLinkedinURL{https://www.linkedin.com/in/jakobharden/}
+\def\PresCopyrightType{ccby} % one of: copyright, ccby, ccysa
+%
+% Beamer theme adaptations
+%   type:        Presentation
+%   series:      Research in progress (RIP)
+%   description: This theme is designed to present preliminary research results.
+\input{adaptthemePresRIP}
+%
+% graphics path
+\graphicspath{{../octave/results/algo_sigfit/png}}
+%
+% Bibliography categories
+\DeclareBibliographyCategory{article}
+\addtocategory{article}{barshan2000}
+\addtocategory{article}{expstudyharden2025}
+\DeclareBibliographyCategory{dataset}
+\addtocategory{dataset}{ts1data}
+\addtocategory{dataset}{ts5data}
+\addtocategory{dataset}{ts6data}
+\addtocategory{dataset}{ts7data}
+\DeclareBibliographyCategory{software}
+\addtocategory{software}{code}
+\addtocategory{software}{latex}
+\addtocategory{software}{repogit}
+\DeclareBibliographyCategory{online1}
+\addtocategory{online1}{repovideo}
+\addtocategory{online1}{agplv3}
+\addtocategory{online1}{ccby40}
+\addtocategory{online1}{octavedoc}
+\DeclareBibliographyCategory{online2}
+\addtocategory{online2}{ytvideo1}
+\addtocategory{online2}{ytvideo2}
+\addtocategory{online2}{ytvideo3}
+\DeclareBibliographyCategory{online3}
+\addtocategory{online3}{ytvideo4}
+\addtocategory{online3}{ytvideo5}
+%
+\urlstyle{same}
+%
+%###############################################################################
+\begin{document}
+	% set title page items
+	\author{\PresAuthor{} (\PresAuthorAffiliation{})}
+	\title{\PresTitle{}}
+	\subtitle{\PresSubTitle{}}
+	\date{\PresDate{}}
+
+	\begin{frame}[plain]
+		\maketitle
+	\end{frame}
+
+	\section*{Abstract}
+	\begin{frame}
+		\frametitle{Abstract}
+		\begin{abstract}
+			In ultrasound signal analysis, the time range estimation plays an important role. The time range is the time span elapsing between the pulse excitation and the time when the sound wave hits the ultrasonic transducer. In the coherent literature, signal model fitting is addressed as one of the most accurate but also most costly methods to determine the sound wave's onset point, which is the upper limit of the time range.
+			In this study, a signal model is fitted to the first ascending flank of the primary wave in order to detect the onset point and to parametrise the signal model. To show the broad applicability range, signals originating from ultrasonic pulse transmission tests (UPTM) on cement paste, ambient air, tap water and an aluminium cylinder are used.
+			A parameter variation based on that signal model allows for examining the signal model parameter's value ranges. Thereby, the fitting error is minimised using the least-squares method.
+			The results show that the signal model fits properly to a variety of primary wave signal responses, but not to all of them to the same degree.
+			To foster comprehensibility and reusability, all materials and results created in the course of this presentation are made available publicly under open licenses.
+		\end{abstract}
+	\end{frame}
+
+	\section{Introduction}
+	\begin{frame}
+		\frametitle{Introduction}
+		\begin{itemize}
+			\item \textcolor{RIPtitlecol}{WHAT}
+			\begin{itemize}
+				\item Signal fitting and signal model parameter optimisation.
+				\item Detection of the primary wave's onset point (time range estimation).
+			\end{itemize}
+			\item \textcolor{RIPtitlecol}{WHY}
+			\begin{itemize}
+				\item Demonstrate that the chosen signal model fits well to primary wave signal responses concerning different testing materials and ultrasonic measuring distances (UMD).
+			\end{itemize}
+			\item \textcolor{RIPtitlecol}{HOW}
+			\begin{itemize}
+				\item Variation of the signal model parameters and minimising the fitting error using the least-squares method.
+			\end{itemize}
+			\item \textcolor{RIPtitlecol}{USAGE}
+				\begin{itemize}
+					\item Reference for other analysis methods aiming to estimate the time range of primary wave signal responses.
+				\end{itemize}
+			\item \textcolor{RIPtitlecol}{HIGHLIGHT} \textbf{The proposed signal model is fitting properly to a variety of signals.}
+		\end{itemize}
+	\end{frame}
+
+	\section{Materials \& Methods}
+	\begin{frame}
+		\frametitle{Materials \& Methods 1}
+		\textcolor{RIPtitlecol}{Materials \textendash{} natural signals}
+		\begin{itemize}
+			\setlength\itemsep{0.5em}
+			\item Natural signals from ultrasonic pulse transmission tests.
+			\item Zero-order hold signal model: $x[n] = s[n] + \nu[n]$, $\nu$ \textellipsis{} additive noise.
+			\item The natural signals originate from the datasets of four test series representing four different testing materials. The data sets selected for the analysis are listed in the \appendixname{} section on the pages \pageref{app:dataset:ts1}ff.
+			\begin{itemize}
+				\item Test series 1, cement paste\autocite{ts1data}.
+				\item Test series 5, ambient air\autocite{ts5data}.
+				\item Test series 6, tap water\autocite{ts6data}.
+				\item Test series 7, aluminium cylinder\autocite{ts7data}.
+			\end{itemize}
+		\end{itemize}
+		\small \textbf{Note:} An elaborate description of the signal data is available in the data descriptor\autocite{expstudyharden2025}: \textsl{Experimental study on cement paste using the ultrasonic pulse transmission method.} (Preprint, Harden, 2025)
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Materials \& Methods 2}
+		\textcolor{RIPtitlecol}{Materials \textendash{} synthetic signals}
+		\begin{itemize}
+			\setlength\itemsep{0.1em}
+			\item Signal model of synthetic signals
+			\begin{equation}
+				s[n,\theta) =
+				\left(
+				\sin(\omega \, n \, N_c) -
+				\frac{1}{\alpha} sin(\alpha \, \omega \, n \, N_c)
+				\right) \cdot
+				\left( e^{-\frac{\beta \, n \, N_c}{N - 1}} \right) \cdot 
+				\left( 1 - e^{-\frac{\gamma \, n \, N_c}{N - 1}} \right) \label{eq:sigmoddef}
+			\end{equation}
+			with the number of cycles $N_c$, the angular frequency $\omega = \frac{2 \pi}{N - 1}$, and the number of samples $N = \left\lfloor N_c \, \frac{F_s}{F_1} \right\rfloor$. See also illustration on page \pageref{mm:sigmodplot}.
+			\item Signal model parameters $\theta = (F_1, \alpha, \beta, \gamma)$.
+			\item The signal model is always normalised to the maximum amplitude. $\hat{s}[n] = \frac{s[n]}{s[n_{\max,1}]}$.
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Materials \& Methods 3}\label{mm:sigmodplot}
+		\textcolor{RIPtitlecol}{Materials \textendash{} synthetic signals}
+		\begin{columns}[t]
+			\begin{RIPcolleft}
+				\begin{figure}
+					\includegraphics[width=90mm,trim = 0mm 0mm 0mm 16mm,clip]{signal_model.png}
+				\end{figure}
+			\end{RIPcolleft}
+			\begin{RIPcolright}
+				\textbf{Parameters $\theta$}\\
+				\begin{itemize}
+					\item Primary frequency $F_1$
+					\item Frequency ratio $\alpha$
+					\item Primary damping factor $\beta$
+					\item Secondary damping factor $\gamma$
+				\end{itemize}
+				$n_0$ \textellipsis{} onset point, $n_{\max,1}$ \textellipsis{} first local maximum location, $n_{xc}$ \textellipsis x-axis crossing
+			\end{RIPcolright}
+		\end{columns}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Materials \& Methods 3}\label{mm:paramvar}
+		\textcolor{RIPtitlecol}{Methods}
+		\begin{itemize}
+			\item Visual inspection of natural signals
+			%
+			\item Least-squares method: the signal model parameters are varied such that the fitting error represented by the weighted metric score $S$ approaches a minimum (see page \pageref{mm:error}). $\theta_{opt} = \arg \min S(\theta)$
+			%
+			\item Parameter variation concerning the signal model parameters $\theta$. Variation ranges:%
+			\begin{itemize}
+				\item $F_1: 0.25 \, F_{1,0} \leq F_{1,0} \leq 1.5 \, F_{1,0}$
+				\item $\alpha: 0.75 \, \alpha_0 \leq \alpha_0 \leq 1.25 \, \alpha_0$
+				\item $\beta: 0.75 \, \beta_0 \leq \beta_0 \leq 1.25 \, \beta_0$
+				\item $\gamma: 0.75 \, \gamma_0 \leq \gamma_0 \leq 1.25 \, \gamma_0$
+				\item All intervals are subdivided into 30 items.
+				\item The initial values for the signal model parameter variation are: $\alpha_0 = 2$, $\beta_0 = 0.5$, $\gamma_0 = 2.5$. $F_{1,0}$ is estimated empirically based on the distance between $n_{xc}$ and $n_{\max,1}$.
+			\end{itemize}
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Materials \& Methods 4}
+		\textcolor{RIPtitlecol}{\textbf{Analysis procedure}}
+		\begin{enumerate}
+			\setlength\itemsep{0.5em}
+			\item[1] Visualise natural signal $x[n]$.
+			\item[2] Pick detection start point directly behind the first local maximum of the primary wave's (PW) signal response. $\rightarrow n_{\text{pick}}$
+			\item[3] Remove constant bias from signal ($x[n] = x[n] - b$). The bias $b$ is estimated by the mean value of the signal's noise floor (section before the trigger point).
+			\item[4] Locate zero-crossing point between the first local maximum and the following local minimum of the PW (threshold detection and linear interpolation). $\rightarrow n_{xc} \in \mathbb{R}$
+			\item[5] Preconditioning: remove amplitudes behind the zero-crossing and before the end of the electromagnetic response section (ERS, disturbance due to the high-voltage pulse excitation). $x[n] = 0: n \leq n_t + L_{\text{ERS}}, n > n_{xc}$
+		\end{enumerate}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Materials \& Methods 5}
+		\textcolor{RIPtitlecol}{\textbf{Analysis procedure, continued \textellipsis{}}}
+		\begin{enumerate}
+			\setlength\itemsep{0.5em}
+			\item[6] Locate first local maximum point. $\rightarrow n_{\max,1}$.
+			\item[7] Update maximum location with the maximum point' location of a local 2\textsuperscript{nd} order regression polynomial fitted to the signal in the area around the previously located maximum point (reducing the impact of noise). $\rightarrow n_{\max,1}$
+			\item[8] Normalise signal to the first local maximum' value. $\rightarrow x_s[n]$
+			\item[9] Estimate initial value for the signal model frequency $F_1$.
+			\begin{equation*}
+				F_{1,0} \approx F_s \frac{3 \, m_{\max,1}}{4 \, M \, (n_{xc} - n_{\max,1} + 1)}
+			\end{equation*}
+			with the number of samples $M$ of one full cycle of the synthetic signal $s[m,\theta)$.
+		\end{enumerate}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Materials \& Methods 6}
+		\textcolor{RIPtitlecol}{\textbf{Analysis procedure, continued \textellipsis{}}}
+		\begin{enumerate}
+			\setlength\itemsep{0.5em}
+			\item[10] Signal model parameter optimisation based on the initial values $F_{1,0}$, $\alpha_0$, $\beta_0$ and $\gamma_0$. Additionally, the signal $x$ is interpolated linearly ($N_i = N \cdot f_i - 1$ samples, $f_i = 10$).
+			\begin{itemize}
+				\setlength\itemsep{0.5em}
+				\item[10.1] Outer loop. Vary $n_{\max,1} \pm f_i$. See notes on page \pageref{mm:notes}.
+				\item[10.2] Inner loop. Minimise error score $S$. See error metric on page \pageref{mm:error}.
+				\begin{itemize}
+					\setlength\itemsep{0.5em}
+					\item[10.2.1] Vary $F_1$. $F_{1,opt} = \arg \min S[n, F_{1,k}, \alpha_0, \beta_0, \gamma_0)$
+					\item[10.2.2] Vary $\alpha$. $\alpha_{opt} = \arg \min S[n, F_{1,opt}, \alpha_k, \beta_0, \gamma_0)$
+					\item[10.2.3] Vary $\beta$. $\beta_{opt} = \arg \min S[n, F_{1,opt}, \alpha_{opt}, \beta_k, \gamma_0)$
+					\item[10.2.4] Vary $\gamma$. $\gamma_{opt} = \arg \min S[n, F_{1,opt}, \alpha_{opt}, \beta_{opt}, \gamma_k)$
+				\end{itemize}
+			\end{itemize}
+			\item[11] Compile statistics for the optimised signal model parameters and the residual optimisation error.
+		\end{enumerate}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Materials \& Methods 7}\label{mm:error}
+		\textcolor{RIPtitlecol}{\textbf{Optimisation error (weighted metric score)}}
+		\begin{align}
+			S[n,\theta) & = e_1[n,\theta) \, \varphi_1 + e_2[n,\theta) \, \varphi_2 \quad \text{with} \, \varphi_1 = \frac{2}{3}, \, \varphi_2 = \frac{1}{3} \; \text{,} \\
+			e_1[n,\theta) & = \frac{1}{K_1} \sum_{n = n_0}^{n_0 + K_1 - 1}
+				\left( x[n] - s[n - n_0,\theta) \right)^2 \; \text{,} \\
+			e_2[n,\theta) & = \frac{1}{K_2} \sum_{n = n_0 + K_1}^{n_{\max,1}}
+				\left( x[n] - s[n - n_0,\theta) \right)^2 \; \text{,}
+		\end{align}
+		the error measuring window length $K = K_1 + K_2 = n_{\max,1} - n_0 + 1$, the primary wave's estimate onset point $n_0 = n_{\max,1} - K + 1$, the half window length estimate $K_1 = \lceil \frac{K}{2} \rceil$, and the length of the second half of the window $K_2 = K - K_1$.
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Materials \& Methods 8}\label{mm:notes}
+		\textcolor{RIPtitlecol}{\textbf{Notes}}
+		\begin{itemize}
+			\item The initially estimated location of the maximum point $n_{\max,1}$ is not necessarily the best estimate. The slight variation of $n_{\max,1}$ and the linear interpolation provide additional flexibility for the subsequent optimisation procedure.
+			%
+			\item The above-described weighted error metric enforces a better fit at the beginning of the signal response directly behind the primary wave's onset point.
+			%
+			\item The sampling frequency for natural and synthetic signals is always 10 MHz.
+			%
+			\item The distributions shown in the statistics are characterised by: minimum, 0.05-quantile, 0.25-quantile, median, 0.75-quantile, 0.95-quantile, maximum.
+			%
+			\item The realisation of the entire analysis procedure is available in the function files\autocite{code} \texttt{algo\_sigfit.m} and \texttt{\slash{}tools\slash{}tool\_fit\_sigmod.m}, which is also available on GitHub\autocite{repogit}.
+		\end{itemize}
+	\end{frame}
+
+	\section{Results}
+	\begin{frame}
+		\frametitle{Results}
+		\textcolor{RIPtitlecol}{\textbf{Table of contents}}
+		\begin{itemize}
+			\item Signal model parameter and optimisation error statistics, part 1. See pages \pageref{res:parerr1}ff.
+			%
+			\item Signal model parameter and optimisation error statistics, part 2. See pages \pageref{res:parerr2}ff.
+			%
+			\item Detailed statistics and analysis results. See \appendixname{} (table of contents), page \pageref{app:toc}.
+			%
+			\item The analysis results are also available as MP4 video files showing the fitting result of every single signal. These video files can be found at the repository\autocite{repovideo} of Graz University of Technology and on YouTube\autocite{ytvideo1,ytvideo2,ytvideo3,ytvideo4,ytvideo5} (playlists).
+		\end{itemize}
+	\end{frame}
+
+	\def\gw{85mm}
+	\begin{frame}
+		\frametitle{Results \textendash{} statistics, part 1}\label{res:parerr1}
+		\begin{columns}[t]
+			\begin{RIPcolleft}
+				\begin{figure}
+					\includegraphics[width=\gw,trim = 10mm 9mm 20mm 15mm,clip]{sf_stats_17.png}
+				\end{figure}
+			\end{RIPcolleft}
+			\begin{RIPcolright}
+				\textbf{Frequency ratio }$\mathbf{\alpha}$\\
+				all data sets\\
+				\vspace*{.5em}
+				\textbf{Observations}\\
+				\begin{itemize}
+					\item For all testing materials, the initial value ($\alpha = 2$) is inside the range of the 0.05 and 0.95 quantiles.
+				\end{itemize}
+			\end{RIPcolright}
+		\end{columns}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Results \textendash{} statistics, part 1}
+		\begin{columns}[t]
+			\begin{RIPcolleft}
+				\begin{figure}
+					\includegraphics[width=\gw,trim = 10mm 9mm 20mm 15mm,clip]{sf_stats_18.png}
+				\end{figure}
+			\end{RIPcolleft}
+			\begin{RIPcolright}
+				\textbf{Primary damping constant }$\mathbf{\beta}$\\
+				all data sets\\
+				\vspace*{.5em}
+				\textbf{Observations}\\
+				\begin{itemize}
+					\item For solid and paste-like materials (cement paste, aluminium cylinder), the values are vastly below the the initial value ($\beta = 0.5$).
+				\end{itemize}
+			\end{RIPcolright}
+		\end{columns}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Results \textendash{} statistics, part 1}
+		\begin{columns}[t]
+			\begin{RIPcolleft}
+				\begin{figure}
+					\includegraphics[width=\gw,trim = 10mm 9mm 20mm 15mm,clip]{sf_stats_19.png}
+				\end{figure}
+			\end{RIPcolleft}
+			\begin{RIPcolright}
+				\textbf{Secondary damping constant }$\mathbf{\gamma}$\\
+				all data sets\\
+				\vspace*{.5em}
+				\textbf{Observations}\\
+				\begin{itemize}
+					\item The behaviour concerning the testing materials is similar to $\beta$.
+				\end{itemize}
+			\end{RIPcolright}
+		\end{columns}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Results \textendash{} statistics, part 1}\label{res:err1}
+		\begin{columns}[t]
+			\begin{RIPcolleft}
+				\begin{figure}
+					\includegraphics[width=\gw,trim = 10mm 9mm 20mm 15mm,clip]{sf_stats_20.png}
+				\end{figure}
+			\end{RIPcolleft}
+			\begin{RIPcolright}
+				\textbf{Optimisation error (error score $S$)}, all data sets\\
+				\vspace*{.5em}
+				\textbf{Observations}\\
+				\begin{itemize}
+					\item The error score for tap water is maximum, where the deviations are related to the measuring distance 25~mm and 50~mm (see page \pageref{res:err:water:dists}).
+				\end{itemize}
+			\end{RIPcolright}
+		\end{columns}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Results \textendash{} statistics, part 1}\label{res:err:water:dists}
+		\begin{columns}[t]
+			\begin{RIPcolleft}
+				\begin{figure}
+					\includegraphics[width=\gw,trim = 10mm 9mm 20mm 15mm,clip]{sf_stats_15.png}
+				\end{figure}
+			\end{RIPcolleft}
+			\begin{RIPcolright}
+				\textbf{Optimisation error statistics for tap water (error score $S$)}\\
+				\vspace*{.5em}
+				\textbf{Observations}\\
+				\begin{itemize}
+					\item The optimisation error for the ultrasonic measuring distances 25 and 50~mm is remarkably higher than for 70 or 90~mm.
+				\end{itemize}
+			\end{RIPcolright}
+		\end{columns}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Results \textendash{} statistics, part 2}\label{res:parerr2}
+		\begin{columns}[t]
+			\begin{RIPcolleft}
+				\begin{figure}
+					\includegraphics[width=\gw,trim = 10mm 9mm 20mm 15mm,clip]{sf_stats_21.png}
+				\end{figure}
+			\end{RIPcolleft}
+			\begin{RIPcolright}
+				\textbf{Frequency ratio }$\mathbf{\alpha}$, excluded: data sets from tap water tests, UMD = 25, 50 mm\\
+				\vspace*{.5em}
+				\textbf{Observations}\\
+				\begin{itemize}
+					\item No notable changes happened due to the exclusion of some data sets for tap water.
+				\end{itemize}
+			\end{RIPcolright}
+		\end{columns}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Results \textendash{} statistics, part 2}
+		\begin{columns}[t]
+			\begin{RIPcolleft}
+				\begin{figure}
+					\includegraphics[width=\gw,trim = 10mm 9mm 20mm 15mm,clip]{sf_stats_22.png}
+				\end{figure}
+			\end{RIPcolleft}
+			\begin{RIPcolright}
+				\textbf{Primary damping constant }$\mathbf{\beta}$, excluded: data sets from tap water tests, UMD = 25, 50 mm\\
+				\vspace*{.5em}
+				\textbf{Observations}\\
+				\begin{itemize}
+					\item No notable changes happened due to the exclusion of some data sets for tap water.
+				\end{itemize}
+			\end{RIPcolright}
+		\end{columns}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Results \textendash{} statistics, part 2}
+		\begin{columns}[t]
+			\begin{RIPcolleft}
+				\begin{figure}
+					\includegraphics[width=\gw,trim = 10mm 9mm 20mm 15mm,clip]{sf_stats_23.png}
+				\end{figure}
+			\end{RIPcolleft}
+			\begin{RIPcolright}
+				\textbf{Secondary damping constant }$\mathbf{\gamma}$, excluded: data sets from tap water tests (test series 6), UMD = 25,50 mm\\
+				\vspace*{.5em}
+				\textbf{Observations}\\
+				\begin{itemize}
+					\item No notable changes happened due to the exclusion of some data sets for tap water.
+				\end{itemize}
+			\end{RIPcolright}
+		\end{columns}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Results \textendash{} statistics, part 2}\label{res:err2}
+		\begin{columns}[t]
+			\begin{RIPcolleft}
+				\begin{figure}
+					\includegraphics[width=\gw,trim = 10mm 9mm 20mm 15mm,clip]{sf_stats_24.png}
+				\end{figure}
+			\end{RIPcolleft}
+			\begin{RIPcolright}
+				\textbf{Optimisation error (error score $S$)}, excluded: data sets from tap water tests, UMD = 25, 50 mm\\
+				\vspace*{.5em}
+				\textbf{Observations}\\
+				Due to the exclusion of some data sets for tap water, the respective maximum error score decreased by a factor of 10. Compare to results on page~\pageref{res:err1}.
+			\end{RIPcolright}
+		\end{columns}
+	\end{frame}
+
+	\section{Conclusions}
+	\begin{frame}
+		\frametitle{Conclusions}
+		For the signal model \eqref{eq:sigmoddef} under consideration, the following conclusions can be drawn:
+		\vspace*{.5em}
+		\begin{itemize}
+			\item The min/max ranges of the signal model parameters show a wide spread. However, the central body of the respective value distributions is consistently in the area around the initial value estimates.
+			%
+			\item Compared to the other testing materials, the error score for tap water (page \ref{res:err1}) is maximum. Thus, the shape of that signal response does not fit that well to the proposed signal model, particularly for the ultrasonic measuring distances 25 and 50~mm (page \ref{res:err:water:dists}). The situation improves considerably (page \ref{res:err2}), when excluding the respective data sets from the error statistics.
+			%
+			\item Signal fitting is a robust, accurate, objective but costly method to determine the signal model parameters and the primary wave's onset point, which is also reflected in the coherent literature\autocite{barshan2000} (e.g., Barshan, 2000).
+		\end{itemize}
+	\end{frame}
+
+	\section{Outlook}
+	\begin{frame}
+		\frametitle{Outlook}
+		% briefly describe further and connected research
+		The insights from the analysis results are whetting the appetite for further investigations.
+		\vspace*{1em}
+		\begin{itemize}
+			\item The signal model can be used to optimise the threshold values for dual threshold detection. That may allow for \textbf{estimating the onset point} in a much easier and less complex way than fitting a signal model to each signal.
+			%
+			\item The primary wave's onset point estimates can be used as an \textbf{objective reference} when comparing the signal fitting method to other onset point detection methods. Remember: The initially picked detection start point determines the signal partition under consideration, not the onset point or the signal model parameters.
+		\end{itemize}
+		\vspace*{.5em}
+		\small \textbf{Note:} To foster comprehensibility and to support the future development of the proposed signal model fitting method, the supplementary GNU Octave code\autocite{code} and the \LaTeX{} code\autocite{latex} of this presentation is made available publicly under open licenses\autocite{agplv3,ccby40}. The entire work is also available on GitHub\autocite{repogit}.
+	\end{frame}
+
+	\section*{References}
+	\begin{frame}[noframenumbering]
+		\frametitle{References \textendash{} Articles}
+		\small
+		\printbibliography[heading=subbibintoc,category=article,title={Articles}]
+	\end{frame}
+	
+	\begin{frame}[noframenumbering]
+		\frametitle{References \textendash{} Available Software}
+		\small
+		\printbibliography[heading=subbibintoc,category=software,title={Available Software}]
+	\end{frame}
+	
+	\begin{frame}[noframenumbering]
+		\frametitle{References \textendash{} Data Records}
+		\small
+		\printbibliography[heading=subbibintoc,category=dataset,title={Data Records}]
+	\end{frame}
+	
+	\begin{frame}[noframenumbering]
+		\frametitle{References \textendash{} Online Resources 1}
+		\small
+		\printbibliography[heading=subbibintoc,category=online1,title={Online Resources 1}]
+	\end{frame}
+	
+	\begin{frame}[noframenumbering]
+		\frametitle{References \textendash{} Online Resources 2}
+		\small
+		\printbibliography[heading=subbibintoc,category=online2,title={Online Resources 2}]
+	\end{frame}
+	
+	\begin{frame}[noframenumbering]
+		\frametitle{References \textendash{} Online Resources 3}
+		\small
+		\printbibliography[heading=subbibintoc,category=online3,title={Online Resources 3}]
+	\end{frame}
+
+	\appendix
+	\section{\appendixname}
+	% data set list
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} table of contents}\label{app:toc}
+		\small
+		\begin{columns}[t]
+			\begin{column}{.49\textwidth}
+				\begin{itemize}
+					\item Data sets, test series 1. Page \pageref{app:dataset:ts1}.
+					\item Data sets, test series 5. Page \pageref{app:dataset:ts5}.
+					\item Data sets, test series 6. Pages \pageref{app:dataset:ts6}f.
+					\item Data sets, test series 7. Page \pageref{app:dataset:ts7}.
+					\item Detailed statistics, param. $\alpha$. Pages \pageref{app:detstats:alpha}f.
+					\item Detailed statistics, param. $\beta$. Pages \pageref{app:detstats:beta}f.
+					\item Detailed statistics, param. $\gamma$. Pages \pageref{app:detstats:gamma}f.
+					\item Detailed statistics, fitting error. Page \pageref{app:detstats:error}f.
+				\end{itemize}
+			\end{column}
+			\begin{column}{.49\textwidth}
+				\begin{itemize}
+					\item Detailed results, test series 1. Pages \pageref{app:details:ts1}ff.
+					\item Detailed results, test series 5. Pages \pageref{app:details:ts5}ff.
+					\item Detailed results, test series 6. Pages \pageref{app:details:ts6v600}ff.
+					\item Detailed results, test series 7. Pages \pageref{app:details:ts7}ff.
+					\item Author information. Page \pageref{app:authinfo}.
+					\item Document license. Page \pageref{app:doclicense}.
+				\end{itemize}
+				\vspace*{3em}
+			\end{column}
+		\end{columns}
+	\end{frame}
+
+	% data set list
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} analysed data sets}\label{app:dataset:ts1}
+		\small
+		\begin{columns}[t]
+			\begin{column}{.5\textwidth}
+				\textbf{Test series 1 (cement paste)}\autocite{ts1data}\\
+				\vspace*{1em}
+				\begin{tabular}{l c}
+					\toprule
+					Data set           & UMD [mm] \\ \midrule
+					ts1\_wc040\_d25\_4 & 25       \\
+					ts1\_wc040\_d25\_5 & 25       \\
+					ts1\_wc040\_d25\_6 & 25       \\
+					ts1\_wc040\_d50\_4 & 50       \\
+					ts1\_wc040\_d50\_5 & 50       \\
+					ts1\_wc040\_d50\_6 & 50       \\
+					ts1\_wc040\_d70\_4 & 70       \\
+					ts1\_wc040\_d70\_5 & 70       \\
+					ts1\_wc040\_d70\_6 & 70       \\ \bottomrule
+				\end{tabular}
+			\end{column}
+			\begin{column}{.5\textwidth}
+				\textbf{Data set naming convention}
+				\begin{tabbing}
+					col1\quad\= \kill
+					ts \> test series identifier (1, 5, 6, 7) \\
+					wc \> water-to-cement ratio (mass ratio) \\
+					d  \> ultrasonic measuring distance (UMD), mm \\
+					\_x \> repetition number (end of data set code) \\
+					b   \> recording block size, kilo-samples \\
+					v   \> pulse voltage, Volts \\
+				\end{tabbing}
+			\end{column}
+		\end{columns}
+	\end{frame}
+
+	% data set list
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} analysed data sets}\label{app:dataset:ts5}
+		\textbf{Test series 5 (ambient air)}\autocite{ts5data}\\
+		\vspace*{1em}
+		\begin{columns}[t]
+			\begin{column}{.5\textwidth}
+				\begin{tabular}{l c}
+					\toprule
+					Data set            & UMD [mm] \\ \midrule
+					ts5\_d25\_b16\_v800 & 25       \\
+					ts5\_d25\_b24\_v800 & 25       \\
+					ts5\_d25\_b33\_v800 & 25       \\
+					ts5\_d25\_b50\_v800 & 25       \\
+					ts5\_d50\_b16\_v800 & 50       \\
+					ts5\_d50\_b24\_v800 & 50       \\
+					ts5\_d50\_b33\_v800 & 50       \\
+					ts5\_d50\_b50\_v800 & 50       \\ \bottomrule
+				\end{tabular}
+			\end{column}
+			\begin{column}{.5\textwidth}
+				\begin{tabular}{l c}
+					\toprule
+					Data set            & UMD [mm] \\ \midrule
+					ts5\_d70\_b16\_v800 & 70       \\
+					ts5\_d70\_b24\_v800 & 70       \\
+					ts5\_d70\_b33\_v800 & 70       \\
+					ts5\_d70\_b50\_v800 & 70       \\
+					ts5\_d90\_b16\_v800 & 90       \\
+					ts5\_d90\_b24\_v800 & 90       \\
+					ts5\_d90\_b33\_v800 & 90       \\
+					ts5\_d90\_b50\_v800 & 90       \\ \bottomrule
+				\end{tabular}
+			\end{column}
+		\end{columns}
+	\end{frame}
+	
+	% data set list
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} analysed data sets}\label{app:dataset:ts6}
+		\textbf{Test series 6 (tap water)}\autocite{ts6data}\\
+		\vspace*{1em}
+		\begin{columns}[t]
+			\begin{column}{.5\textwidth}
+				\begin{tabular}{l c}
+					\toprule
+					Data set            & UMD [mm] \\ \midrule
+					ts6\_d25\_b16\_v600 & 25       \\
+					ts6\_d25\_b24\_v600 & 25       \\
+					ts6\_d25\_b33\_v600 & 25       \\
+					ts6\_d25\_b50\_v600 & 25       \\
+					ts6\_d50\_b16\_v600 & 50       \\
+					ts6\_d50\_b24\_v600 & 50       \\
+					ts6\_d50\_b33\_v600 & 50       \\
+					ts6\_d50\_b50\_v600 & 50       \\ \bottomrule
+				\end{tabular}
+			\end{column}
+			\begin{column}{.5\textwidth}
+				\begin{tabular}{l c}
+					\toprule
+					Data set               & UMD [mm] \\ \midrule
+					ts6\_d70\_b16\_v600    & 70       \\
+					ts6\_d70\_b24\_v600    & 70       \\
+					ts6\_d70\_b33\_v600    & 70       \\
+					ts6\_d70\_b50\_v600    & 70       \\
+					ts6\_d90\_b16\_v600\_2 & 90       \\
+					ts6\_d90\_b24\_v600\_2 & 90       \\
+					ts6\_d90\_b33\_v600\_2 & 90       \\
+					ts6\_d90\_b50\_v600\_2 & 90       \\ \bottomrule
+				\end{tabular}
+			\end{column}
+		\end{columns}
+	\end{frame}
+
+	% data set list
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} analysed data sets}
+		\textbf{Test series 6 (tap water)}\autocite{ts6data}\\
+		\vspace*{1em}
+		\begin{columns}[t]
+			\begin{column}{.5\textwidth}
+				\begin{tabular}{l c}
+					\toprule
+					Data set            & UMD [mm] \\ \midrule
+					ts6\_d25\_b16\_v800 & 25       \\
+					ts6\_d25\_b24\_v800 & 25       \\
+					ts6\_d25\_b33\_v800 & 25       \\
+					ts6\_d25\_b50\_v800 & 25       \\
+					ts6\_d50\_b16\_v800 & 50       \\
+					ts6\_d50\_b24\_v800 & 50       \\
+					ts6\_d50\_b33\_v800 & 50       \\
+					ts6\_d50\_b50\_v800 & 50       \\ \bottomrule
+				\end{tabular}
+			\end{column}
+			\begin{column}{.5\textwidth}
+				\begin{tabular}{l c}
+					\toprule
+					Data set               & UMD [mm] \\ \midrule
+					ts6\_d70\_b16\_v800    & 70       \\
+					ts6\_d70\_b24\_v800    & 70       \\
+					ts6\_d70\_b33\_v800    & 70       \\
+					ts6\_d70\_b50\_v800    & 70       \\
+					ts6\_d90\_b16\_v800\_2 & 90       \\
+					ts6\_d90\_b24\_v800\_2 & 90       \\
+					ts6\_d90\_b33\_v800\_2 & 90       \\
+					ts6\_d90\_b50\_v800\_2 & 90       \\ \bottomrule
+				\end{tabular}
+			\end{column}
+		\end{columns}
+	\end{frame}
+
+	% data set list
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} analysed data sets}\label{app:dataset:ts7}
+		\textbf{Test series 7 (aluminium cylinder)}\autocite{ts7data}\\
+		\vspace*{1em}
+		\begin{columns}[t]
+			\begin{column}{.5\textwidth}
+				\begin{tabular}{l c}
+					\toprule
+					Data set            & UMD [mm] \\ \midrule
+					ts7\_d50\_b16\_v400 & 50       \\
+					ts7\_d50\_b16\_v600 & 50       \\
+					ts7\_d50\_b16\_v800 & 50       \\
+					ts7\_d50\_b24\_v400 & 50       \\
+					ts7\_d50\_b24\_v600 & 50       \\
+					ts7\_d50\_b24\_v800 & 50       \\ \bottomrule
+				\end{tabular}
+			\end{column}
+			\begin{column}{.5\textwidth}
+				\begin{tabular}{l c}
+					\toprule
+					Data set            & UMD [mm] \\ \midrule
+					ts7\_d50\_b33\_v400 & 50       \\
+					ts7\_d50\_b33\_v600 & 50       \\
+					ts7\_d50\_b33\_v800 & 50       \\
+					ts7\_d50\_b50\_v400 & 50       \\
+					ts7\_d50\_b50\_v600 & 50       \\
+					ts7\_d50\_b50\_v800 & 50       \\ \bottomrule
+				\end{tabular}
+			\end{column}
+		\end{columns}
+	\end{frame}
+
+	\def\gw{72mm}
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed statistics, $\alpha$}\label{app:detstats:alpha}
+		\begin{tabular}{ r r }
+			\includegraphics[width=\gw,trim = 2mm 0mm 20mm 2mm,clip]{sf_stats_1.png} & 
+			\includegraphics[width=\gw,trim = 2mm 0mm 20mm 2mm,clip]{sf_stats_2.png}
+		\end{tabular}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed statistics, $\alpha$}
+		\begin{tabular}{ r r }
+			\includegraphics[width=\gw,trim = 2mm 0mm 20mm 2mm,clip]{sf_stats_3.png} & 
+			\includegraphics[width=\gw,trim = 2mm 0mm 20mm 2mm,clip]{sf_stats_4.png}
+		\end{tabular}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed statistics, $\beta$}\label{app:detstats:beta}
+		\begin{tabular}{ r r }
+			\includegraphics[width=\gw,trim = 2mm 0mm 20mm 2mm,clip]{sf_stats_5.png} & 
+			\includegraphics[width=\gw,trim = 2mm 0mm 20mm 2mm,clip]{sf_stats_6.png}
+		\end{tabular}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed statistics, $\beta$}
+		\begin{tabular}{ r r }
+			\includegraphics[width=\gw,trim = 2mm 0mm 20mm 2mm,clip]{sf_stats_7.png} & 
+			\includegraphics[width=\gw,trim = 2mm 0mm 20mm 2mm,clip]{sf_stats_8.png}
+		\end{tabular}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed statistics, $\gamma$}\label{app:detstats:gamma}
+		\begin{tabular}{ r r }
+			\includegraphics[width=\gw,trim = 2mm 0mm 20mm 2mm,clip]{sf_stats_9.png} & 
+			\includegraphics[width=\gw,trim = 2mm 0mm 20mm 2mm,clip]{sf_stats_10.png}
+		\end{tabular}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed statistics, $\gamma$}
+		\begin{tabular}{ r r }
+			\includegraphics[width=\gw,trim = 2mm 0mm 20mm 2mm,clip]{sf_stats_11.png} & 
+			\includegraphics[width=\gw,trim = 2mm 0mm 20mm 2mm,clip]{sf_stats_12.png}
+		\end{tabular}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed statistics, error}\label{app:detstats:error}
+		\begin{tabular}{ r r }
+			\includegraphics[width=\gw,trim = 2mm 0mm 20mm 2mm,clip]{sf_stats_13.png} & 
+			\includegraphics[width=\gw,trim = 2mm 0mm 20mm 2mm,clip]{sf_stats_14.png}
+		\end{tabular}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed statistics, error}
+		\begin{tabular}{ r r }
+			\includegraphics[width=\gw,trim= 5mm 5mm 5mm 5mm]{sf_stats_15.png} & 
+			\includegraphics[width=\gw,trim= 5mm 5mm 5mm 5mm]{sf_stats_16.png}
+		\end{tabular}
+	\end{frame}
+
+	% test series 1, cement paste
+	\def\gw{130mm}
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}\label{app:details:ts1}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts1_wc040_d25_4_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts1_wc040_d25_5_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts1_wc040_d25_6_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts1_wc040_d50_4_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts1_wc040_d50_5_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts1_wc040_d50_6_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts1_wc040_d70_4_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts1_wc040_d70_5_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts1_wc040_d70_6_1.png}
+		\end{figure}
+	\end{frame}
+
+	% test series 5, ambient air
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}\label{app:details:ts5}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts5_d25_b16_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts5_d25_b24_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts5_d25_b33_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts5_d25_b50_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts5_d50_b16_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts5_d50_b24_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts5_d50_b33_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts5_d50_b50_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts5_d70_b16_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts5_d70_b24_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts5_d70_b33_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts5_d70_b50_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts5_d90_b16_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts5_d90_b24_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts5_d90_b33_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts5_d90_b50_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	% test series 6, tap water, pulse voltage 600 V
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}\label{app:details:ts6v600}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d25_b16_v600_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d25_b24_v600_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d25_b33_v600_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d25_b50_v600_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d50_b16_v600_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d50_b24_v600_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d50_b33_v600_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d50_b50_v600_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d70_b16_v600_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d70_b24_v600_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d70_b33_v600_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d70_b50_v600_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d90_b16_v600_2_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d90_b24_v600_2_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d90_b33_v600_2_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d90_b50_v600_2_1.png}
+		\end{figure}
+	\end{frame}
+
+	% test series 6, tap water, pulse voltage 800 V
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}\label{app:details:ts6v800}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d25_b16_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d25_b24_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d25_b33_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d25_b50_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d50_b16_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d50_b24_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d50_b33_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d50_b50_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d70_b16_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d70_b24_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d70_b33_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d70_b50_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d90_b16_v800_2_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d90_b24_v800_2_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d90_b33_v800_2_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts6_d90_b50_v800_2_1.png}
+		\end{figure}
+	\end{frame}
+
+	% test series 7, aluminium cylinder
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}\label{app:details:ts7}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts7_d50_b16_v400_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts7_d50_b16_v600_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts7_d50_b16_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts7_d50_b24_v400_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts7_d50_b24_v600_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts7_d50_b24_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts7_d50_b33_v400_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts7_d50_b33_v600_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts7_d50_b33_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts7_d50_b50_v400_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts7_d50_b50_v600_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{\appendixname{} \textendash{} detailed fitting results}
+		\begin{figure}
+			\includegraphics[width=\gw,trim = 10mm 25mm 20mm 5mm,clip]{ts7_d50_b50_v800_1.png}
+		\end{figure}
+	\end{frame}
+
+	\begin{frame}[noframenumbering]
+		\frametitle{\appendixname{} \textendash{} Author information}\label{app:authinfo}
+		\RIPauthorinfo{}
+	\end{frame}
+
+	\begin{frame}[noframenumbering]
+		\frametitle{\appendixname{} \textendash{} Document license}\label{app:doclicense}
+		\expandafter\RIPcopyrightinfo\expandafter{\PresCopyrightType}
+	\end{frame}
+\end{document}
