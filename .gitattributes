@@ -1,0 +1,6 @@
+published/2025-09-19_videos_youtube_v100/videos_pwave_sigmodfitting_v100_2025-09-19.zip filter=lfs diff=lfs merge=lfs -text
+published/2025-09-20_latex-code_v100/latex-code_pwave_sigmodfitting_v100_2025-09-20.zip filter=lfs diff=lfs merge=lfs -text
+published/2025-09-20_octave-code_v100/signalmodelfitting-1.0.0.zip filter=lfs diff=lfs merge=lfs -text
+published/2025-09-20_videos_v100/videos_pwave_sigmodfitting_v100_2025-09-19.zip filter=lfs diff=lfs merge=lfs -text
+published/2025-09-20_presentation_v100/presentation_pwave_sigmodfitting_v100_2025-09-20.pdf filter=lfs diff=lfs merge=lfs -text
+published/2025-09-20_presentation_v100/presentation_pwave_sigmodfitting_v100_2025-09-20_sig.pdf filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,1338 @@
+--------------------------------------------------------
+TU Graz Repository
+doi: 10.3217/5rgbw-a8v29
+url: https://doi.org/10.3217/5rgbw-a8v29
+
+--------------------------------------------------------
+GitHub Repository
+url: https://github.com/jakobharden/phd_signalmodelfitting
+
+--------------------------------------------------------
+YouTube Playlists
+
+UPTM - P-wave signal model fitting results, testing material: cement paste, ultrasonic measuring distance: 25, 50, 70 mm
+https://www.youtube.com/playlist?list=PLJZuQsRT0k-M7zaaBbiKMzlLKHiLl7K2j
+
+UPTM - P-wave signal model fitting results, testing material: ambient air, ultrasonic measuring distance: 25, 50, 70, 90 mm
+https://www.youtube.com/playlist?list=PLJZuQsRT0k-PDwayMIp9qnjOUYo4H71Ea
+
+UPTM - P-wave signal model fitting results, testing material: tap water, ultrasonic measuring distance: 25, 50 mm
+https://www.youtube.com/playlist?list=PLJZuQsRT0k-PcsCwiQu_qluBSBQJok2Zi
+
+UPTM - P-wave signal model fitting results, testing material: tap water, ultrasonic measuring distance: 70, 90 mm
+https://www.youtube.com/playlist?list=PLJZuQsRT0k-O9ZTgesZUKfYvqYNkToMEJ
+
+UPTM - P-wave signal model fitting results, testing material: aluminium cylinder, ultrasonic measuring distance: 50 mm
+https://www.youtube.com/playlist?list=PLJZuQsRT0k-NaoWA7EBHHLaojYXNR7s77
+
+--------------------------------------------------------
+Data set: ts1_wc040_d25_4
+
+ts1_wc040_d25_4 - signal model fitting results
+https://youtu.be/htGC-m52PiY
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: cement paste at the early stage of hydration; Ultrasonic measuring distance: 25 mm; Data set: ts1_wc040_d25_4.oct; Test series 1 (DOI: https://doi.org/10.3217/bhs4g-m3z76)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts1_wc040_d25_5
+
+ts1_wc040_d25_5 - signal model fitting results
+https://youtu.be/KymxlHiLDNQ
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: cement paste at the early stage of hydration; Ultrasonic measuring distance: 25 mm; Data set: ts1_wc040_d25_5.oct; Test series 1 (DOI: https://doi.org/10.3217/bhs4g-m3z76)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts1_wc040_d25_6
+
+ts1_wc040_d25_6 - signal model fitting results
+https://youtu.be/Q8MBOh6XFxU
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: cement paste at the early stage of hydration; Ultrasonic measuring distance: 25 mm; Data set: ts1_wc040_d25_6.oct; Test series 1 (DOI: https://doi.org/10.3217/bhs4g-m3z76)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts1_wc040_d50_4
+
+ts1_wc040_d50_4 - signal model fitting results
+https://youtu.be/4sH1rpj2hho
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: cement paste at the early stage of hydration; Ultrasonic measuring distance: 50 mm; Data set: ts1_wc040_d50_4.oct; Test series 1 (DOI: https://doi.org/10.3217/bhs4g-m3z76)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts1_wc040_d50_5
+
+ts1_wc040_d50_5 - signal model fitting results
+https://youtu.be/Sqt4H-JRjx8
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: cement paste at the early stage of hydration; Ultrasonic measuring distance: 50 mm; Data set: ts1_wc040_d50_5.oct; Test series 1 (DOI: https://doi.org/10.3217/bhs4g-m3z76)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts1_wc040_d50_6
+
+ts1_wc040_d50_6 - signal model fitting results
+https://youtu.be/1MEgJby6sYU
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: cement paste at the early stage of hydration; Ultrasonic measuring distance: 50 mm; Data set: ts1_wc040_d50_6.oct; Test series 1 (DOI: https://doi.org/10.3217/bhs4g-m3z76)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts1_wc040_d70_4
+
+ts1_wc040_d70_4 - signal model fitting results
+https://youtu.be/uAbeXCpFes0
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: cement paste at the early stage of hydration; Ultrasonic measuring distance: 70 mm; Data set: ts1_wc040_d70_4.oct; Test series 1 (DOI: https://doi.org/10.3217/bhs4g-m3z76)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts1_wc040_d70_5
+
+ts1_wc040_d70_5 - signal model fitting results
+https://youtu.be/3keZe2kxFfM
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: cement paste at the early stage of hydration; Ultrasonic measuring distance: 70 mm; Data set: ts1_wc040_d70_5.oct; Test series 1 (DOI: https://doi.org/10.3217/bhs4g-m3z76)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts1_wc040_d70_6
+
+ts1_wc040_d70_6 - signal model fitting results
+https://youtu.be/G6TjfJ8AEQQ
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: cement paste at the early stage of hydration; Ultrasonic measuring distance: 70 mm; Data set: ts1_wc040_d70_6.oct; Test series 1 (DOI: https://doi.org/10.3217/bhs4g-m3z76)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts5_d25_b16_v800
+
+ts5_d25_b16_v800 - signal model fitting results
+https://youtu.be/Abxi4SSQnC4
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: ambient air; Ultrasonic measuring distance: 25 mm; Data set: ts5_d25_b16_v800.oct; Test series 5 (DOI: https://doi.org/10.3217/bjkrj-pg829)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts5_d25_b24_v800
+
+ts5_d25_b24_v800 - signal model fitting results
+https://youtu.be/9hM5yxSZ49I
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: ambient air; Ultrasonic measuring distance: 25 mm; Data set: ts5_d25_b24_v800.oct; Test series 5 (DOI: https://doi.org/10.3217/bjkrj-pg829)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts5_d25_b33_v800
+
+ts5_d25_b33_v800 - signal model fitting results
+https://youtu.be/Mm8kMN1bGKM
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: ambient air; Ultrasonic measuring distance: 25 mm; Data set: ts5_d25_b33_v800.oct; Test series 5 (DOI: https://doi.org/10.3217/bjkrj-pg829)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts5_d25_b50_v800
+
+ts5_d25_b50_v800 - signal model fitting results
+https://youtu.be/zV4otyLGm_A
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: ambient air; Ultrasonic measuring distance: 25 mm; Data set: ts5_d25_b50_v800.oct; Test series 5 (DOI: https://doi.org/10.3217/bjkrj-pg829)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts5_d50_b16_v800
+
+ts5_d50_b16_v800 - signal model fitting results
+https://youtu.be/aBbMcbzElyc
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: ambient air; Ultrasonic measuring distance: 50 mm; Data set: ts5_d50_b16_v800.oct; Test series 5 (DOI: https://doi.org/10.3217/bjkrj-pg829)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts5_d50_b24_v800
+
+ts5_d50_b24_v800 - signal model fitting results
+https://youtu.be/CajJjFG-gWU
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: ambient air; Ultrasonic measuring distance: 50 mm; Data set: ts5_d50_b24_v800.oct; Test series 5 (DOI: https://doi.org/10.3217/bjkrj-pg829)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts5_d50_b33_v800
+
+ts5_d50_b33_v800 - signal model fitting results
+https://youtu.be/Yj0YNXMoM0A
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: ambient air; Ultrasonic measuring distance: 50 mm; Data set: ts5_d50_b33_v800.oct; Test series 5 (DOI: https://doi.org/10.3217/bjkrj-pg829)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts5_d50_b50_v800
+
+ts5_d50_b50_v800 - signal model fitting results
+https://youtu.be/PFLkbdzv2o4
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: ambient air; Ultrasonic measuring distance: 50 mm; Data set: ts5_d50_b50_v800.oct; Test series 5 (DOI: https://doi.org/10.3217/bjkrj-pg829)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts5_d70_b16_v800
+
+ts5_d70_b16_v800 - signal model fitting results
+https://youtu.be/6IU-kO9k2UI
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: ambient air; Ultrasonic measuring distance: 70 mm; Data set: ts5_d70_b16_v800.oct; Test series 5 (DOI: https://doi.org/10.3217/bjkrj-pg829)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts5_d70_b24_v800
+
+ts5_d70_b24_v800 - signal model fitting results
+https://youtu.be/NybBQlK90_0
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: ambient air; Ultrasonic measuring distance: 70 mm; Data set: ts5_d70_b24_v800.oct; Test series 5 (DOI: https://doi.org/10.3217/bjkrj-pg829)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts5_d70_b33_v800
+
+ts5_d70_b33_v800 - signal model fitting results
+https://youtu.be/4p4p00u8jx0
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: ambient air; Ultrasonic measuring distance: 70 mm; Data set: ts5_d70_b33_v800.oct; Test series 5 (DOI: https://doi.org/10.3217/bjkrj-pg829)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts5_d70_b50_v800
+
+ts5_d70_b50_v800 - signal model fitting results
+https://youtu.be/uTw5cggKDvI
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: ambient air; Ultrasonic measuring distance: 70 mm; Data set: ts5_d70_b50_v800.oct; Test series 5 (DOI: https://doi.org/10.3217/bjkrj-pg829)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts5_d90_b16_v800
+
+ts5_d90_b16_v800 - signal model fitting results
+https://youtu.be/7lPVCkVS5fQ
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: ambient air; Ultrasonic measuring distance: 90 mm; Data set: ts5_d90_b16_v800.oct; Test series 5 (DOI: https://doi.org/10.3217/bjkrj-pg829)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts5_d90_b24_v800
+
+ts5_d90_b24_v800 - signal model fitting results
+https://youtu.be/X02YeUUsOEU
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: ambient air; Ultrasonic measuring distance: 90 mm; Data set: ts5_d90_b24_v800.oct; Test series 5 (DOI: https://doi.org/10.3217/bjkrj-pg829)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts5_d90_b33_v800
+
+ts5_d90_b33_v800 - signal model fitting results
+https://youtu.be/Qhb4ghtJzOI
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: ambient air; Ultrasonic measuring distance: 90 mm; Data set: ts5_d90_b33_v800.oct; Test series 5 (DOI: https://doi.org/10.3217/bjkrj-pg829)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts5_d90_b50_v800
+
+ts5_d90_b50_v800 - signal model fitting results
+https://youtu.be/x1XuFKtv3I8
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: ambient air; Ultrasonic measuring distance: 90 mm; Data set: ts5_d90_b50_v800.oct; Test series 5 (DOI: https://doi.org/10.3217/bjkrj-pg829)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d25_b16_v600
+
+ts6_d25_b16_v600 - signal model fitting results
+https://youtu.be/H6CD8flpm_o
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 25 mm; Data set: ts6_d25_b16_v600.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d25_b16_v800
+
+ts6_d25_b16_v800 - signal model fitting results
+https://youtu.be/BC3WbBmlc7c
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 25 mm; Data set: ts6_d25_b16_v800.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d25_b24_v600
+
+ts6_d25_b24_v600 - signal model fitting results
+https://youtu.be/JbdXZvgMqsI
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 25 mm; Data set: ts6_d25_b24_v600.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d25_b24_v800
+
+ts6_d25_b24_v800 - signal model fitting results
+https://youtu.be/Tt4jPSF1DFw
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 25 mm; Data set: ts6_d25_b24_v800.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d25_b33_v600
+
+ts6_d25_b33_v600 - signal model fitting results
+https://youtu.be/T3Uz01hjZf4
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 25 mm; Data set: ts6_d25_b33_v600.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d25_b33_v800
+
+ts6_d25_b33_v800 - signal model fitting results
+https://youtu.be/IpMOph4d0nc
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 25 mm; Data set: ts6_d25_b33_v800.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d25_b50_v600
+
+ts6_d25_b50_v600 - signal model fitting results
+https://youtu.be/qqJSRVTfdFI
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 25 mm; Data set: ts6_d25_b50_v600.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d25_b50_v800
+
+ts6_d25_b50_v800 - signal model fitting results
+https://youtu.be/KOSRi648eLk
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 25 mm; Data set: ts6_d25_b50_v800.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d50_b16_v600
+
+ts6_d50_b16_v600 - signal model fitting results
+https://youtu.be/lc2qfFAmZrU
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 50 mm; Data set: ts6_d50_b16_v600.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d50_b16_v800
+
+ts6_d50_b16_v800 - signal model fitting results
+https://youtu.be/J75t8RgP234
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 50 mm; Data set: ts6_d50_b16_v800.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d50_b24_v600
+
+ts6_d50_b24_v600 - signal model fitting results
+https://youtu.be/wIZsc0dLjfk
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 50 mm; Data set: ts6_d50_b24_v600.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d50_b24_v800
+
+ts6_d50_b24_v800 - signal model fitting results
+https://youtu.be/xItIiQJRWtg
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 50 mm; Data set: ts6_d50_b24_v800.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d50_b33_v600
+
+ts6_d50_b33_v600 - signal model fitting results
+https://youtu.be/0aX_0jX86jI
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 50 mm; Data set: ts6_d50_b33_v600.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d50_b33_v800
+
+ts6_d50_b33_v800 - signal model fitting results
+https://youtu.be/KkYKFYhOssI
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 50 mm; Data set: ts6_d50_b33_v800.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d50_b50_v600
+
+ts6_d50_b50_v600 - signal model fitting results
+https://youtu.be/us8qlzo13BI
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 50 mm; Data set: ts6_d50_b50_v600.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d50_b50_v800
+
+ts6_d50_b50_v800 - signal model fitting results
+https://youtu.be/pKGce2QmJB0
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 50 mm; Data set: ts6_d50_b50_v800.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d70_b16_v600
+
+ts6_d70_b16_v600 - signal model fitting results
+https://youtu.be/TIOxUnEOo4Y
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 70 mm; Data set: ts6_d70_b16_v600.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d70_b16_v800
+
+ts6_d70_b16_v800 - signal model fitting results
+https://youtu.be/O8SezsXUOqk
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 70 mm; Data set: ts6_d70_b16_v800.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d70_b24_v600
+
+ts6_d70_b24_v600 - signal model fitting results
+https://youtu.be/60AiesW7lek
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 70 mm; Data set: ts6_d70_b24_v600.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d70_b24_v800
+
+ts6_d70_b24_v800 - signal model fitting results
+https://youtu.be/zXM4yM3UJe0
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 70 mm; Data set: ts6_d70_b24_v800.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d70_b33_v600
+
+ts6_d70_b33_v600 - signal model fitting results
+https://youtu.be/ih9Cnv_La1Q
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 70 mm; Data set: ts6_d70_b33_v600.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d70_b33_v800
+
+ts6_d70_b33_v800 - signal model fitting results
+https://youtu.be/p5KLGQxXcDk
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 70 mm; Data set: ts6_d70_b33_v800.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d70_b50_v600
+
+ts6_d70_b50_v600 - signal model fitting results
+https://youtu.be/tN4vXjCGT_4
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 70 mm; Data set: ts6_d70_b50_v600.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d70_b50_v800
+
+ts6_d70_b50_v800 - signal model fitting results
+https://youtu.be/Iojcp54sH-A
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 70 mm; Data set: ts6_d70_b50_v800.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d90_b16_v600_2
+
+ts6_d90_b16_v600_2 - signal model fitting results
+https://youtu.be/x7GDbyHohZU
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 90 mm; Data set: ts6_d90_b16_v600_2.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d90_b16_v800_2
+
+ts6_d90_b16_v800_2 - signal model fitting results
+https://youtu.be/hw9yfNvYqbs
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 90 mm; Data set: ts6_d90_b16_v800_2.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d90_b24_v600_2
+
+ts6_d90_b24_v600_2 - signal model fitting results
+https://youtu.be/94msuMjGGcw
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 90 mm; Data set: ts6_d90_b24_v600_2.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d90_b24_v800_2
+
+ts6_d90_b24_v800_2 - signal model fitting results
+https://youtu.be/CqO2cH9dG8M
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 90 mm; Data set: ts6_d90_b24_v800_2.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d90_b33_v600_2
+
+ts6_d90_b33_v600_2 - signal model fitting results
+https://youtu.be/v1RaJfrcdAQ
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 90 mm; Data set: ts6_d90_b33_v600_2.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d90_b33_v800_2
+
+ts6_d90_b33_v800_2 - signal model fitting results
+https://youtu.be/dDOuGe9BHXs
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 90 mm; Data set: ts6_d90_b33_v800_2.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d90_b50_v600_2
+
+ts6_d90_b50_v600_2 - signal model fitting results
+https://youtu.be/EusIGcermW4
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 90 mm; Data set: ts6_d90_b50_v600_2.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts6_d90_b50_v800_2
+
+ts6_d90_b50_v800_2 - signal model fitting results
+https://youtu.be/9ZDfZ7l99sY
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: tap water; Ultrasonic measuring distance: 90 mm; Data set: ts6_d90_b50_v800_2.oct; Test series 6 (DOI: https://doi.org/10.3217/hn7we-q7z09)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts7_d50_b16_v400
+
+ts7_d50_b16_v400 - signal model fitting results
+https://youtu.be/Pd7JIkKMTEM
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: aluminium cylinder; Ultrasonic measuring distance: 50 mm; Data set: ts7_d50_b16_v400.oct; Test series 7 (DOI: https://doi.org/10.3217/w3mb5-1wx17)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts7_d50_b16_v600
+
+ts7_d50_b16_v600 - signal model fitting results
+https://youtu.be/hVzWC92txM8
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: aluminium cylinder; Ultrasonic measuring distance: 50 mm; Data set: ts7_d50_b16_v600.oct; Test series 7 (DOI: https://doi.org/10.3217/w3mb5-1wx17)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts7_d50_b16_v800
+
+ts7_d50_b16_v800 - signal model fitting results
+https://youtu.be/iHmeNyH4pQQ
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: aluminium cylinder; Ultrasonic measuring distance: 50 mm; Data set: ts7_d50_b16_v800.oct; Test series 7 (DOI: https://doi.org/10.3217/w3mb5-1wx17)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts7_d50_b24_v400
+
+ts7_d50_b24_v400 - signal model fitting results
+https://youtu.be/sFZIikdkPJg
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: aluminium cylinder; Ultrasonic measuring distance: 50 mm; Data set: ts7_d50_b24_v400.oct; Test series 7 (DOI: https://doi.org/10.3217/w3mb5-1wx17)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts7_d50_b24_v600
+
+ts7_d50_b24_v600 - signal model fitting results
+https://youtu.be/nMO73Dslomc
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: aluminium cylinder; Ultrasonic measuring distance: 50 mm; Data set: ts7_d50_b24_v600.oct; Test series 7 (DOI: https://doi.org/10.3217/w3mb5-1wx17)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts7_d50_b24_v800
+
+ts7_d50_b24_v800 - signal model fitting results
+https://youtu.be/-4mjQh28t88
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: aluminium cylinder; Ultrasonic measuring distance: 50 mm; Data set: ts7_d50_b24_v800.oct; Test series 7 (DOI: https://doi.org/10.3217/w3mb5-1wx17)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts7_d50_b33_v400
+
+ts7_d50_b33_v400 - signal model fitting results
+https://youtu.be/eTZ2PzqZzUs
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: aluminium cylinder; Ultrasonic measuring distance: 50 mm; Data set: ts7_d50_b33_v400.oct; Test series 7 (DOI: https://doi.org/10.3217/w3mb5-1wx17)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts7_d50_b33_v600
+
+ts7_d50_b33_v600 - signal model fitting results
+https://youtu.be/YY-93Bf6ZIw
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: aluminium cylinder; Ultrasonic measuring distance: 50 mm; Data set: ts7_d50_b33_v600.oct; Test series 7 (DOI: https://doi.org/10.3217/w3mb5-1wx17)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts7_d50_b33_v800
+
+ts7_d50_b33_v800 - signal model fitting results
+https://youtu.be/Fv6efyiIQ0c
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: aluminium cylinder; Ultrasonic measuring distance: 50 mm; Data set: ts7_d50_b33_v800.oct; Test series 7 (DOI: https://doi.org/10.3217/w3mb5-1wx17)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts7_d50_b50_v400
+
+ts7_d50_b50_v400 - signal model fitting results
+https://youtu.be/jlTssMGUfb4
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: aluminium cylinder; Ultrasonic measuring distance: 50 mm; Data set: ts7_d50_b50_v400.oct; Test series 7 (DOI: https://doi.org/10.3217/w3mb5-1wx17)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts7_d50_b50_v600
+
+ts7_d50_b50_v600 - signal model fitting results
+https://youtu.be/h1Gjm60fSBM
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: aluminium cylinder; Ultrasonic measuring distance: 50 mm; Data set: ts7_d50_b50_v600.oct; Test series 7 (DOI: https://doi.org/10.3217/w3mb5-1wx17)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
+--------------------------------------------------------
+Data set: ts7_d50_b50_v800
+
+ts7_d50_b50_v800 - signal model fitting results
+https://youtu.be/6Mw4ZP3eL30
+
+Signal analysis concerning signal recordings from ultrasonic pulse transmission tests. Semi-automated fitting of a damped sinusoidal signal model to natural signals. In this video, the signals, the optimised signal model parameters and the optimisation error are shown. Testing material: aluminium cylinder; Ultrasonic measuring distance: 50 mm; Data set: ts7_d50_b50_v800.oct; Test series 7 (DOI: https://doi.org/10.3217/w3mb5-1wx17)
+
+License:
+Copyright (2025) Jakob Harden (Graz University of Technology, Graz, Austria)
+This video is licensed under a Creative Commons Attribution 4.0 International license.
+This file is part of the PhD Thesis of Jakob Harden.
+
+Author information:
+Website: https://jakobharden.at/wordpress/
+E-Mail: jakob.harden@tugraz.at, jakob.harden@student.tugraz.at, office@jakobharden.at
+ORCID: https://orcid.org/0000-0002-5752-1785
+LinkedIn: https://www.linkedin.com/in/jakobharden/
+
