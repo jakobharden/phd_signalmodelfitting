@@ -333,3 +333,9 @@ TSWLatexianTemp*
 *.ofig
 *.mp3
 *.mp4
+
+# ignore tex files in the octave directory
+/octave/*.tex
+/octave/tex/*.tex
+/octave/results/*/tex/*.tex
+/octave/results/*/*.tex
