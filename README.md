@@ -198,7 +198,7 @@ The *algo\_*.m* function files compile the analysis results and write them to th
     octave: >> algo_mp43();      
 ```
 
-**Note:**
+**Usage notes**
 
 - DSTYPE ... data set type identifier   
   - 1 = cement paste (test series 1)   
