@@ -1,0 +1,372 @@
+<h1>Information about the repository</h1>
+
+<h2>Title</h2>
+
+<p><strong>Signal model parameter optimisation for primary wave signal responses from ultrasonic pulse transmission tests - A numerical study concerning damped sinusoidal signals</strong>.</p>
+
+<h2>Abstract</h2>
+
+<p>In ultrasound signal analysis, the time range estimation plays an important role. The time range is the time span elapsing between the pulse excitation and the time when the sound wave hits the ultrasonic transducer. In the coherent literature, signal model fitting is addressed as one of the most accurate but also most costly methods to determine the sound wave's onset point, which is the upper limit of the time range.
+In this study a signal model is fitted to the first ascending flank of the primary wave in order to detect the onset point and to parametrise the signal model. To show the broad applicability range, signals originating from ultrasonic pulse transmission tests (UPTM) on cement paste, ambient air, tap water and an aluminium cylinder are used.
+A parameter variation based on that signal model allows for examining the signal model parameter's value ranges. Thereby, the fitting error is minimised using the least-squares method.
+The results show that the signal model fits properly to a variety of primary wave signal responses, but not to all of them to the same degree.
+To foster comprehensibility and reusability, all materials and results created in the course of this presentation are made available publicly under open licenses.</p>
+
+<h2>Table of contents</h2>
+
+<ul>
+<li><a href="#license">License</a></li>
+<li><a href="#prerequisites">Prerequisites</a></li>
+<li><a href="#directory-and-file-structure">Directory and file structure</a></li>
+<li><a href="#installation-instructions">Installation instructions</a></li>
+<li><a href="#usage-instructions">Usage instructions</a></li>
+<li><a href="#help-and-documentation">Help and Documentation</a></li>
+<li><a href="#related-data-sources">Related data sources</a></li>
+<li><a href="#related-software">Related software</a></li>
+<li><a href="#revision-and-release-history">Revision and release history</a></li>
+</ul>
+
+<h2>License</h2>
+
+<p>Copyright 2025 Jakob Harden (jakob.harden@tugraz.at, Graz University of Technology, Graz, Austria)</p>
+
+<p>This file is part of the PhD thesis of Jakob Harden.</p>
+
+<p>The following files are licensed under the <em>GNU AFFERO GENERAL PUBLIC LICENSE Version 3</em> (AGPLv3). See also licence information file "LICENSE".</p>
+
+<ul>
+<li>all *.m files in directory: <strong>/octave/aggregator</strong>   </li>
+<li>all *.m files in directory: <strong>/octave/tools</strong>   </li>
+<li>all <em>/octave/algo*.m</em> files   </li>
+<li>the file <em>/octave/init.m</em>   </li>
+</ul>
+
+<p>The following files are licensed under the <em>MIT</em> license. See also <a href="https://opensource.org/license/mit">MIT licence</a>.</p>
+
+<ul>
+<li>all *.m files in directory: <strong>/octave/struct</strong>   </li>
+<li>all *.m files in directory: <strong>/octave/tex</strong>   </li>
+</ul>
+
+<p>The following files are licensed under the <em>Creative Commons Attribution 4.0 International</em> license. See also <a href="https://creativecommons.org/licenses/by/4.0/deed.en">CC BY 4.0</a>.</p>
+
+<ul>
+<li>all files in directory: <strong>/octave/results</strong> (including all sub-directories)   </li>
+<li>all files in directory: <strong>/latex</strong> (including all sub-directories)   </li>
+<li>the files <em>README.md</em> and <em>README.html</em>   </li>
+</ul>
+
+<h2>Prerequisites</h2>
+
+<p>As a prerequisite, <em>GNU Octave 6.2.0</em> (or a more recent version) need to be installed. <em>GNU Octave</em> is available via the package management system on many Linux distributions. For <em>Microsoft Windows</em> or <em>MacOS</em> users it is suggested to download the <em>Windows</em> or <em>MacOS</em> version of <em>GNU Octave</em> and to install the software manually. See also: <a href="https://octave.org/download">GNU Octave download</a></p>
+
+<p>To compile the MP4 video files (see <em>algo_mp43.m</em>), the command line tool <em>ffmpeg</em> is required. In many Linux distributions, this tool can be installed using the package management system. For <em>Microsoft Windows</em> or <em>MacOS</em> users it is suggested to download the <em>Windows</em> or <em>MacOS</em> version of <em>ffmpeg</em> and to install the software manually. See also: <a href="https://ffmpeg.org/download.html">ffmpeg download</a></p>
+
+<h2>Directory and file structure</h2>
+
+<p>All GNU Octave script files (*.m) are written in the scientific programming language of <em>GNU Octave 6.2.0</em>. All Latex files (*.tex) are written with compliance to <em>TeX-live</em> version 2020.20210202-3. Text files (*.m, *.tex) are generally encoded in UTF-8.</p>
+
+<h3>Overview of the directory structure</h3>
+
+<p><code>
+signalmodelfitting-1.0.0 <br />
+├── latex <br />
+│   ├── adaptthemePresRIP.tex <br />
+│   ├── main.tex <br />
+│   └── oct2texdefs.tex <br />
+├── octave <br />
+│   ├── aggregator <br />
+│   ├── results <br />
+│   ├── struct <br />
+│   ├── tex <br />
+│   ├── tools <br />
+│   ├── algo_dsdefs.m <br />
+│   ├── algo_mp43.m <br />
+│   ├── algo_param.m <br />
+│   ├── algo_sigfit.m <br />
+│   ├── algo_sigmod.m <br />
+│   └── init.m <br />
+├── LICENSE <br />
+├── README.html <br />
+└── README.md
+</code></p>
+
+<h3>Brief description of files and folders</h3>
+
+<ul>
+<li><strong>signalmodelfitting-1.0.0</strong> ... main program directory
+<ul>
+<li><em>LICENSE</em> ... text file, GNU Affero General Public License</li>
+<li><em>README.html</em> ... text file, HTML version of <em>README.md</em></li>
+<li><em>README.md</em> ... text file, information about the program, this file</li>
+</ul></li>
+<li><strong>signalmodelfitting-1.0.0/latex</strong> ... directory, LaTeX documents, presentation slides (CC BY 4.0)
+<ul>
+<li><em>adaptthemePresRIP.tex</em> ... file, LaTeX beamer class configuration</li>
+<li><em>main.tex</em> ... file, main LaTeX document, presentation source code</li>
+<li><em>oct2texdefs.tex</em> ... file, conviniently import structure field values from GNU Octave data structures into LaTeX documents</li>
+</ul></li>
+<li><strong>signalmodelfitting-1.0.0/octave</strong> ... directory, GNU Octave source code
+<ul>
+<li><em>algo_dsdefs.m</em> ... function file, data set definitions</li>
+<li><em>algo_mp43.m</em> ... function file, create MP4 video file showing the semi-automated signal model fitting results</li>
+<li><em>algo_param.m</em> ... function file, analysis parameter definitions</li>
+<li><em>algo_sigfit.m</em> ... function file, visual signal inspection and semi-automated signal model fitting</li>
+<li><em>algo_sigmod.m</em> ... function file, plot signal model</li>
+<li><em>init.m</em> ... function file, initialise program</li>
+</ul></li>
+</ul>
+
+<h2>Installation instructions</h2>
+
+<h3>Data set installation</h3>
+
+<ol>
+<li>Download the data set records (see section <strong>Related data sources</strong>) from the repository and move them to a directory of your choice. e.g. <strong>/home/acme/science/data/*_dataset.tar.xz</strong></li>
+<li>Extract data sets from the TAR archives using <em>GNU tar</em>. For <em>Microsoft Windows</em> users it is suggested to use <em>7-zip</em> instead.</li>
+</ol>
+
+<p><code>
+bash: $ tar -xzf ts1_datasets.tar.xz
+</code></p>
+
+<p>The expected outcome is to have all data sets (*.oct files) in the directories of the respective test series.</p>
+
+<p><code>
+home <br />
+└── acme <br />
+    └── science <br />
+        └── data <br />
+            ├── ts1_dataset <br />
+            │   └── *.oct <br />
+            ├── ts5_dataset <br />
+            │   └── *.oct <br />
+            ├── ts6_dataset <br />
+            │   └── *.oct <br />
+            └── ts7_dataset <br />
+                └── *.oct
+</code></p>
+
+<blockquote>
+  <p>[!NOTE]
+<em>7-zip</em> is available online. <a href="https://www.7-zip.org/download.html">7-zip download</a></p>
+</blockquote>
+
+<h3>Analysis script installation</h3>
+
+<ol>
+<li>Download the record containing the analysis code from the repository and move it to a directory of your choice. e.g. <strong>/home/acme/science</strong>   </li>
+<li>Decompress analysis code from the ZIP archive <strong>signalmodelfitting-1.0.0.zip</strong>. e.g. <strong>/home/acme/science/signalmodelfitting-1.0.0</strong>   </li>
+<li>Run GNU Octave.   </li>
+<li>Make the program directory <strong>/home/acme/science/paper2-analysis-1.0.0/octave</strong> the working directory.   </li>
+<li>Adjust the variables 'r_ds.datapath' 'r_ds.dspath1', 'r_ds.dspath2', 'r_ds.dspath3' and 'r_ds.dspath4' in function file <strong>/home/acme/science/signalmodelfitting-1.0.0/octave/algo_param.m</strong>. They have to point to the actual location of the folders containing the previously extracted data sets (*.oct) of the respective test series.   </li>
+</ol>
+
+<p><code>
+    algo_param.m:  ... <br />
+    algo_param.m:  r_ds.datapath = fullfile(filesep(), 'home', 'acme', 'science', 'data'); # data set source path <br />
+    algo_param.m:  r_ds.dspath1 = 'ts1_dataset'; # test series 1 data set directory <br />
+    algo_param.m:  r_ds.dspath2 = 'ts5_dataset'; # test series 5 data set directory <br />
+    algo_param.m:  r_ds.dspath3 = 'ts6_dataset'; # test series 6 data set directory <br />
+    algo_param.m:  r_ds.dspath4 = 'ts7_dataset'; # test series 7 data set directory <br />
+    algo_param.m:  ...
+</code></p>
+
+<h2>Usage instructions</h2>
+
+<ol>
+<li>Open GNU Octave.   </li>
+<li>Initialise program.   </li>
+<li>Run analysis.   </li>
+</ol>
+
+<h3>Initialise program (command line interface)</h3>
+
+<p>The <em>init</em> function initialises the program. The initialisation must be run once before executing all the other functions. The command is adding the sub-directories included in the main program directory to the 'path' environment variable. This function also loads additional packages (e.g. the signal package).</p>
+
+<p><code>
+    octave: &gt;&gt; init();
+</code></p>
+
+<h3>Run analysis (command line interface)</h3>
+
+<p>The <em>algo_</em>.m* function files compile the analysis results and write them to the above-mentioned <strong>/octave/results</strong> directory. These functions are also plotting the analysis results. Since some of the algorithms depend on previously compiled analysis results, the order of executing the function files matters.</p>
+
+<ol>
+<li>Manually pick the detection start point (selecting a sample index directly behind the sound wave's first local maximum's location) <br />
+<code>
+octave: &gt;&gt; algo_sigfit('pick', &lt;DSTYPE&gt;, &lt;DSID&gt;, &lt;CID&gt;);
+</code></li>
+<li>Automatically compile signal model fitting results <br />
+<code>
+octave: &gt;&gt; algo_sigfit('fit');
+</code></li>
+<li>Automatically plot signal model fitting results <br />
+<code>
+octave: &gt;&gt; algo_sigfit('plot');
+</code></li>
+<li>Automatically compile signal model fitting statistics <br />
+<code>
+octave: &gt;&gt; algo_sigfit('stats');
+</code></li>
+<li>Automatically compile MP4 video files showing the semi-automated signal model fitting results <br />
+<code>
+octave: &gt;&gt; algo_mp43();
+</code></li>
+</ol>
+
+<p><strong>Note:</strong></p>
+
+<ul>
+<li>DSTYPE ... data set type identifier <br />
+<ul>
+<li>1 = cement paste (test series 1)   </li>
+<li>2 = ambient air (test series 5)   </li>
+<li>3 = tap water (test series 6)   </li>
+<li>4 = aluminium cylinder (test series 7)   </li>
+</ul></li>
+<li>DSID ... dat set identifier <br />
+<ul>
+<li>integer number   </li>
+<li>see also <em>/octave/algo_param.m</em> and <em>/octave/algo_dsdefs.m</em>)   </li>
+</ul></li>
+<li>CID ... channel identifier <br />
+<ul>
+<li>1 = primary wave singal response (compression wave)   </li>
+<li>2 = secondary wave singal response (shear wave)   </li>
+</ul></li>
+</ul>
+
+<h2>Help and Documentation</h2>
+
+<p>All function files contain an adequate function description and instructions on how to use the functions. The documentation can be displayed in the GNU Octave command line interface by entering the following command:</p>
+
+<p><code>
+    octave: &gt;&gt; help function_file_name;
+</code></p>
+
+<h2>Related data sources</h2>
+
+<p>The data sets analysed in this publication are available at the repository of <em>Graz University of Technology</em> under the <em>Creative Commons Attribution 4.0 International</em> license. The data records enlisted below contain the raw data, the compiled data sets and a technical description of the record content. Additionally, a data descriptor (preprint) is available, which contains an elaborate descriptions of these data sets.</p>
+
+<h3>Data records</h3>
+
+<ul>
+<li>Harden, J. (2023) "Ultrasonic Pulse Transmission Tests: Datasets - Test Series 1, Cement Paste at Early Stages". Graz University of Technology. doi: <a href="https://doi.org/10.3217/bhs4g-m3z76">10.3217/bhs4g-m3z76</a>   </li>
+<li>Harden, J. (2023) "Ultrasonic Pulse Transmission Tests: Datasets - Test Series 5, Reference Tests on Air". Graz University of Technology. doi: <a href="https://doi.org/10.3217/bjkrj-pg829">10.3217/bjkrj-pg829</a>   </li>
+<li>Harden, J. (2023) "Ultrasonic Pulse Transmission Tests: Datasets - Test Series 6, Reference Tests on Water". Graz University of Technology. doi: <a href="https://doi.org/10.3217/hn7we-q7z09">10.3217/hn7we-q7z09</a>   </li>
+<li>Harden, J. (2025) "Ultrasonic Pulse Transmission Tests: Datasets - Test Series 7, Reference Tests on Aluminium Cylinder (1.1)". Graz University of Technology. doi: <a href="https://doi.org/10.3217/w3mb5-1wx17">10.3217/w3mb5-1wx17</a>   </li>
+</ul>
+
+<h3>Data descriptor</h3>
+
+<ul>
+<li>Harden, J. (2025). Experimental study on cement paste using the ultrasonic pulse transmission method (1.0.0). Graz University of Technology. doi: <a href="https://doi.org/10.31224/4465">10.31224/4465</a>, alternative doi: <a href="https://doi.org/10.20944/preprints202503.2008.v1">10.20944/preprints202503.2008.v1</a>   </li>
+<li>Harden, J. (2025). Source code for: Experimental study on cement paste using the ultrasonic pulse transmission method (1.0.0-beta1). Graz University of Technology. doi: <a href="https://doi.org/10.3217/xmrmb-5ap42">10.3217/xmrmb-5ap42</a>   </li>
+</ul>
+
+<blockquote>
+  <p>[!NOTE]
+The source code for the data descriptor is also available on <strong>GitHub</strong>. <a href="https://github.com/jakobharden/phd_paper_1_analysis">Source code</a></p>
+</blockquote>
+
+<h2>Related software</h2>
+
+<h3>Dataset Compiler, version 1.2:</h3>
+
+<p>The referenced data sets are compiled from raw data using a data set compilation tool implemented in the programming language of <em>GNU Octave 6.2.0</em>. To understand the structure of the data sets, it is a good idea to look at the source code of that tool. Therefore, it was made publicly available under the <em>MIT</em> license at the repository of <em>Graz University of Technology</em>.</p>
+
+<ul>
+<li>Harden, J. (2025) "Ultrasonic Pulse Transmission Tests: Data set compiler (1.2)". Graz University of Technology. doi: <a href="https://doi.org/10.3217/bcydt-6ta35">10.3217/bcydt-6ta35</a>   </li>
+</ul>
+
+<blockquote>
+  <p>[!NOTE]
+<em>Dataset Compiler</em> is also available on <strong>GitHub</strong>. <a href="https://github.com/jakobharden/phd_dataset_compiler">Dataset Compiler</a></p>
+</blockquote>
+
+<h3>Dataset Exporter, version 1.1:</h3>
+
+<p><em>Dataset Exporter</em> is implemented in the programming language of GNU Octave 6.2.0 and allows for exporting data contained in the data set. The main features of that script collection cover the export of substructures to variables and the serialisation to the CSV format, the JSON structure format and TeX code. It is also made publicly available under the <em>MIT</em> licence at the repository of <em>Graz University of Technology</em>.</p>
+
+<ul>
+<li>Harden, J. (2025) "Ultrasonic Pulse Transmission Tests: Dataset Exporter (1.1)". Graz University of Technology. doi: <a href="https://doi.org/10.3217/d3p6m-w7d64">10.3217/d3p6m-w7d64</a>   </li>
+</ul>
+
+<blockquote>
+  <p>[!NOTE]
+<em>Dataset Exporter</em> is also available on <strong>GitHub</strong>. <a href="https://github.com/jakobharden/phd_dataset_exporter">Dataset Exporter</a></p>
+</blockquote>
+
+<h3>Dataset Viewer, version 1.0:</h3>
+
+<p><em>Dataset Viewer</em> is implemented in the programming language of GNU Octave 6.2.0 and allows for plotting measurement data contained in the data set. The main features of that script collection cover 2D plots, 3D plots and rendering MP4 video files from the measurement data contained in the data set. It is also made publicly available under the <em>MIT</em> licence at the repository of <em>Graz University of Technology</em>.</p>
+
+<ul>
+<li>Harden, J. (2023) "Ultrasonic Pulse Transmission Tests: Dataset Viewer (1.0)". Graz University of Technology. doi: <a href="https://doi.org/10.3217/c1ccn-8m982">10.3217/c1ccn-8m982</a>   </li>
+</ul>
+
+<blockquote>
+  <p>[!NOTE]
+<em>Dataset Viewer</em> is also available on <strong>GitHub</strong>. <a href="https://github.com/jakobharden/phd_dataset_viewer">Dataset Viewer</a></p>
+</blockquote>
+
+<h2>Revision and release history</h2>
+
+<p>Keywords:</p>
+
+<ul>
+<li>civil engineering</li>
+<li>signal analysis</li>
+<li>damped sinusoidal signal</li>
+<li>ultrasonic pulse transmission</li>
+<li>signal fitting</li>
+<li>signal model</li>
+<li>onset point</li>
+<li>time-of-flight</li>
+<li>time range</li>
+</ul>
+
+<h3>2025-09-19, Video files, version 1.0.0</h3>
+
+<ul>
+<li>published/released by Jakob Harden   </li>
+<li>repository: YouTube   </li>
+<li><a href="https://www.youtube.com/playlist?list=PLJZuQsRT0k-M7zaaBbiKMzlLKHiLl7K2j">Playlist 1</a>, UPTM - P-wave signal model fitting results, testing material: cement paste, ultrasonic measuring distance: 25, 50, 70 mm   </li>
+<li><a href="https://www.youtube.com/playlist?list=PLJZuQsRT0k-PDwayMIp9qnjOUYo4H71Ea">Playlist 2</a>, UPTM - P-wave signal model fitting results, testing material: ambient air, ultrasonic measuring distance: 25, 50, 70, 90 mm   </li>
+<li><a href="https://www.youtube.com/playlist?list=PLJZuQsRT0k-PcsCwiQu_qluBSBQJok2Zi">Playlist 3</a>, UPTM - P-wave signal model fitting results, testing material: tap water, ultrasonic measuring distance: 25, 50 mm   </li>
+<li><a href="https://www.youtube.com/playlist?list=PLJZuQsRT0k-O9ZTgesZUKfYvqYNkToMEJ">Playlist 4</a>, UPTM - P-wave signal model fitting results, testing material: tap water, ultrasonic measuring distance: 70, 90 mm   </li>
+<li><a href="https://www.youtube.com/playlist?list=PLJZuQsRT0k-NaoWA7EBHHLaojYXNR7s77">Playlist 5</a>, UPTM - P-wave signal model fitting results, testing material: aluminium cylinder, ultrasonic measuring distance: 50 mm   </li>
+</ul>
+
+<h3>2025-09-20, Presentation slide deck, version 1.0.0</h3>
+
+<ul>
+<li>published/released by Jakob Harden   </li>
+<li>repository: <a href="http://doi.org/10.17616/R31NJMYL">TU Graz Repository</a>   </li>
+<li>doi: <a href="https://doi.org/10.3217/8egy9-h8152">10.3217/8egy9-h8152</a>   </li>
+</ul>
+
+<h3>2025-09-20, LaTeX code, version 1.0.0</h3>
+
+<ul>
+<li>published/released by Jakob Harden   </li>
+<li>repository: <a href="http://doi.org/10.17616/R31NJMYL">TU Graz Repository</a>   </li>
+<li>doi: <a href="https://doi.org/10.3217/pn7sy-hma06">10.3217/pn7sy-hma06</a>   </li>
+</ul>
+
+<h3>2025-09-20, GNU Octave code to the presentation, version 1.0.0</h3>
+
+<ul>
+<li>published/released by Jakob Harden   </li>
+<li>repository: <a href="http://doi.org/10.17616/R31NJMYL">TU Graz Repository</a>   </li>
+<li>doi: <a href="https://doi.org/10.3217/x9htm-kxe18">10.3217/x9htm-kxe18</a>   </li>
+</ul>
+
+<h3>2025-09-20, Video files to the presentation, version 1.0.0</h3>
+
+<ul>
+<li>published/released by Jakob Harden   </li>
+<li>repository: <a href="http://doi.org/10.17616/R31NJMYL">TU Graz Repository</a>   </li>
+<li>doi: <a href="https://doi.org/10.3217/5rgbw-a8v29">10.3217/5rgbw-a8v29</a>   </li>
+</ul>
